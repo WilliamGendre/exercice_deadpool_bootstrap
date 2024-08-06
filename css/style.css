@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bgImg{
+    background-image: url(../img/deadpoolFond.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@font-face{
+    font-family: "rogue_hero";
+    src: url(rogue_hero/roguehero.ttf);
+}
+
+h2, h3, a{
+    text-transform: uppercase;
+    font-family: "rogue_hero";
+}
+
+iframe{
+    height: 105vh;
+}
+
+@media screen and (max-width:480px) {
+    iframe{
+        height: 30vh;
+    }
+}
+
+.btnBuy:hover{
+    background-color: black !important;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.btnBuy{
+    transition: 0.8s;
+}
+
+.btnBuy:hover a{
+    color: white !important;
+    font-size: 20px;
+}
+
+.btnMenu:hover{
+    color: white !important;
+    font-size: 20px;
+}
